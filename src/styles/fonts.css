@@ -1,0 +1,14 @@
+@import url(https://fonts.bunny.net/css?family=abel:400|...);
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+@font-face {
+  font-family: 'paranoia';
+  src: url('../assets/paranoida-g.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'calabrese';
+  src: url('../assets/C123456789-Regular.otf') format('truetype');
+}

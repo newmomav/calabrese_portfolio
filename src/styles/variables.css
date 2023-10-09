@@ -1,0 +1,13 @@
+:root {
+  --body_background: #f5ebf3;
+  --body_color: #011410;
+  --link_color: #15803d;
+  --background_image: url('../assets/IMG_9991.jpg');
+}
+
+[data-theme='dark'] {
+  --body_background: #011410;
+  --body_color: #f5ebf3;
+  --link_color: #15803d;
+  --background_image: url('../assets/IMG_9981.jpg');
+}
