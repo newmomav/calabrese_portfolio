@@ -1,5 +1,5 @@
-import { FaMoon } from 'react-icons/fa';
-import { BsSunFill } from 'react-icons/bs';
+// import { FaMoon } from 'react-icons/fa';
+// import { BsSunFill } from 'react-icons/bs';
 
 import { useEffect } from 'react';
 import { useState } from 'react';
@@ -22,9 +22,11 @@ const DarkMode = () => {
     <div>
       <button onClick={toggleTheme}>
         {isDarkMode === false ? (
-          <BsSunFill className="text-[2rem] md:text-[3rem] lg:text-[5rem]" />
+          // <BsSunFill className="text-[2rem] md:text-[3rem] lg:text-[5rem]" />
+          <em className="text-xs md:text-base lg:text-lg">light</em>
         ) : (
-          <FaMoon className="text-[2rem] md:text-[3rem] lg:text-[5rem]" />
+          // <FaMoon className="text-[2rem] md:text-[3rem] lg:text-[5rem]" />
+          <em className="text-xs md:text-base lg:text-lg">dark</em>
         )}
       </button>
     </div>

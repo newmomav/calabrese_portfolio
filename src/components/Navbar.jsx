@@ -6,7 +6,7 @@ const navItems = [
 
 const Navbar = () => {
   return (
-    <nav className="border border-red-300 flex justify-start text-base md:text-xl lg:text-1xl xl:text-1xl pl-2 absolute">
+    <nav className="flex justify-start text-base md:text-xl lg:text-1xl xl:text-1xl pl-2 absolute">
       <ul>
         {navItems.map((item, index) => (
           <li key={index}>

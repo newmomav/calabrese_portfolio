@@ -1,16 +1,15 @@
 :root {
-  --body_background: #f5ebf3;
+  --body_background: #f6f5f6;
   --body_color: #011410;
-  --link_color: #15803d;
+  --link_color: #329404;
+  --highlight-color: #e9cee9;
   --background_image: url('../assets/IMG_9991.jpg');
 }
 
 [data-theme='dark'] {
   --body_background: #011410;
-  --body_color: #f5ebf3;
-  --link_color: #15803d;
+  --body_color: #f6f5f6;
+  --link_color: #329404;
+  --highlight-color: #e9cee9;
   --background_image: url('../assets/IMG_9981.jpg');
-  transition:
-    background-color 0.5s,
-    color 0.5s;
 }

@@ -15,11 +15,20 @@
 
 body {
   color: var(--body_color);
-  font-family: 'Barlow', sans-serif;
+  /* font-family: 'Barlow', sans-serif; */
   /* font-family: 'Abel', sans-serif; */
   font-family: 'Courier New', Courier, monospace;
   background-color: var(--body_background);
   cursor: url('./assets/rose-xs.png'), auto;
+  transition:
+    background-color 0.5s,
+    color 0.5s;
+  overflow: hidden;
+}
+
+a {
+  color: var(--body_color);
+  transition: color 0.5s;
 }
 
 svg path.calabrese {
@@ -39,11 +48,78 @@ svg path.arrowBack {
   }
 }
 .fade-out {
-  animation: fadeOut 2s forwards;
-  animation-delay: 3s;
+  animation: fadeOut 1s forwards;
+  animation-delay: 6s;
+}
+.fade-out2 {
+  animation: fadeOut 1s forwards;
+  animation-delay: 10s;
 }
 
 .loaderLogo {
+  font-size: 20vh;
+  font-family: 'calabrese';
+  color: #f5ebf3;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #f5ebf31c);
+  line-height: 18vh;
+  outline: none;
+  animation: animate 4s linear;
+  animation-fill-mode: forwards;
+}
+
+.loaderLogo2 {
+  font-size: 20vh;
+  font-family: 'calabrese';
+  color: #f5ebf3;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #f5ebf31c);
+  line-height: 18vh;
+  outline: none;
+  animation: animate2 4s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate {
+  0%,
+  80%,
+  99.1% {
+    color: #000e0b;
+    text-shadow: none;
+  }
+
+  30%,
+  79.9%,
+  81.1%,
+  99%,
+  100% {
+    color: #f5ebf3;
+    text-shadow:
+      0 0 20px #85c1d3c7,
+      0 0 40px #94ddf3c7,
+      0 0 80px #58cef2c7,
+      0 0 160px #ebf5f8c7;
+  }
+}
+@keyframes animate2 {
+  80%,
+  99.1% {
+    color: #000e0b;
+    text-shadow: none;
+  }
+  0%,
+  30%,
+  79.9%,
+  81.1%,
+  99%,
+  100% {
+    color: #f5ebf3;
+    text-shadow:
+      0 0 20px #85c1d3c7,
+      0 0 40px #94ddf3c7,
+      0 0 80px #58cef2c7,
+      0 0 160px #ebf5f8c7;
+  }
+}
+/* .loaderLogo {
   font-size: 9rem;
   font-family: 'calabrese';
   color: #f5ebf3;
@@ -173,9 +249,9 @@ svg path.arrowBack {
     opacity: 1;
   }
 
-  77% {
-    opacity: 0.5;
-    /* text-shadow:
+  77% { 
+opacity: 0.5;*/
+/* text-shadow:
       0 0 0 transparent,
       0 0 10px #ffffff,
       0 0 20px rgba(255, 255, 255, 1),
@@ -184,14 +260,14 @@ svg path.arrowBack {
       0 0 200px rgba(255, 255, 255, 1),
       0 0 300px #ffffff,
       0 0 500px #ffffff,
-      0 0 1000px #ffffff; */
-  }
-  78% {
+      0 0 1000px #ffffff;
+  }*/
+/* 78% {
     opacity: 1;
   }
-}
+} */
 
-.arrow-active:hover::before {
+.arrow-active::before {
   content: '';
   display: block;
   background-image: url('../assets/Menu-selection .png');
@@ -201,9 +277,33 @@ svg path.arrowBack {
   height: 35px;
   position: absolute;
   left: -2rem;
+  opacity: 0;
+}
+.arrow-active:hover::before {
+  opacity: 1;
+  transition: opacity 1s;
 }
 
 .horizontal-text {
   writing-mode: vertical-rl;
-  line-height: 100px;
+  text-orientation: upright;
+}
+
+/* For WebKit (Safari, Chrome, etc) */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--body_background); /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--link_color); /* color of the scroll thumb */
+  border-radius: 50%; /* roundness of the scroll thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--body_color); /* color of the scroll thumb on hover */
 }
