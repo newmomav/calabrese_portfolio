@@ -1,63 +1,41 @@
-import { Grid, Hidden, Paper } from '@mui/material';
-import { Logo } from '../components/Logo';
-import { DarkMode } from '../components/DarkMode/DarkMode';
-import { Gif } from '../components/Gif';
-import { Navbar } from '../components/Navbar';
+import Logo from '../components/Logo';
+import DarkMode from '../components/DarkMode';
+import Gif from '../components/Gif';
+import Navbar from '../components/Navbar';
+import LittleCopyright from '../components/LittleCopyright';
 
 const Layout = () => {
   return (
     <>
-      <Grid container spacing={0.5} className="h-screen">
+      <div className=" grid grid-cols-12 grid-rows-5 h-screen w-screen">
         {/* First row */}
-        <Grid item xs={8} md={10} className="h-1/5">
+        <div
+          className="border border-red-300
+        col-span-10 row-span-1 flex justify-center"
+        >
           <Logo />
-        </Grid>
-        <Grid item xs={4} md={2} className="h-1/5">
+        </div>
+        <div className=" border border-red-300 col-span-2 row-span-1 pt-4 pl-2 md:pt-8 lg:pt-8 text-left">
           <DarkMode />
-        </Grid>
+        </div>
 
-        {/* Second Row */}
-        <Hidden smDown>
-          <Grid item sm={1} md={1} className="h-4/5">
-            <Paper style={{ height: '100%', background: 'lightgreen' }}>
-              1fr
-            </Paper>
-          </Grid>
-          <Grid item sm={2} md={3} className="h-4/5">
-            <Paper style={{ height: '100%', background: 'lightyellow' }}>
-              3fr
-            </Paper>
-          </Grid>
-        </Hidden>
+        {/* Second Row for larger screens (hidden for small screens) */}
+        <div className="border border-red-300 hidden row-span-4 md:block md:col-span-1 lg:col-span-1  bg-lightgreen">
+          <LittleCopyright />
+        </div>
+        <div className="border border-red-300 hidden row-span-4 md:block md:col-span-3 lg:col-span-3  bg-lightyellow">
+          {/* {showInfo && <Info />} */}
+        </div>
 
-        <Grid item xs={8} sm={5} md={6} className="h-4/5">
+        <div className="border border-red-300 row-span-4 col-span-10 md:col-span-6 lg:col-span-6 ">
           <Gif />
-        </Grid>
-        <Grid item xs={4} md={2} className="h-4/5">
+        </div>
+        <div className="border border-red-300 row-span-4 col-span-2 md:col-span-2 lg:col-span-2 flex flex-col justify-end">
           <Navbar />
-        </Grid>
-      </Grid>
+        </div>
+      </div>
     </>
   );
 };
 
 export default Layout;
-
-// <div
-//         className={`transition-opacity ${
-//           isLoading ? 'opacity-0' : 'opacity-100'
-//         }`}
-//       >
-//         <Logo />
-//         <DarkMode />
-//         <Navbar />
-//         <HomeButton />
-//         <LandingPage />
-//         <Info />
-//         {/* <MouseFollow /> */}
-//         <Button />
-//         <Button variant="contained" color="primary">
-//           MUI Button
-//         </Button>
-//       </div>
-//     </>

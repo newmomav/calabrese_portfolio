@@ -1,19 +1,11 @@
 const Gif = () => {
   return (
-    <div className="h-screen flex items-center justify-center">
-      <div
-        style={{
-          width: '80vh',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
-          display: 'flex',
-          justifyContent: 'center',
-          // backgroundImage: 'var(--background_image)',
-        }}
-      >
-        <img src="/Kralle-gif.gif" alt="Gif von einer Kralle aus Keramik" />
-      </div>
+    <div className="relative w-full h-full ">
+      <img
+        className="h-full object-cover lg:w-full"
+        src="/Kralle-gif.gif"
+        alt="Gif von einer Kralle aus Keramik"
+      />
     </div>
   );
 };

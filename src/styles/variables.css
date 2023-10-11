@@ -10,4 +10,7 @@
   --body_color: #f5ebf3;
   --link_color: #15803d;
   --background_image: url('../assets/IMG_9981.jpg');
+  transition:
+    background-color 0.5s,
+    color 0.5s;
 }

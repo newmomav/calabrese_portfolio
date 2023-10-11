@@ -1,4 +1,3 @@
-import './darkmode.css';
 import { FaMoon } from 'react-icons/fa';
 import { BsSunFill } from 'react-icons/bs';
 
@@ -20,12 +19,12 @@ const DarkMode = () => {
   };
 
   return (
-    <div className="dark_mode">
+    <div>
       <button onClick={toggleTheme}>
         {isDarkMode === false ? (
-          <BsSunFill style={{ fontSize: '2rem' }} />
+          <BsSunFill className="text-[2rem] md:text-[3rem] lg:text-[5rem]" />
         ) : (
-          <FaMoon style={{ fontSize: '2rem' }} />
+          <FaMoon className="text-[2rem] md:text-[3rem] lg:text-[5rem]" />
         )}
       </button>
     </div>

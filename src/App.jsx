@@ -1,7 +1,6 @@
 import Loader from './components/Loader';
 import { useEffect, useState } from 'react';
 import Layout from './pages/Layout';
-import DarkMode from './components/DarkMode/DarkMode';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -23,12 +22,11 @@ function App() {
       )}
 
       <div
-        className={`transition-opacity ${
+        className={`transition-opacity duration-300 ease-in-out ${
           isLoading ? 'opacity-0' : 'opacity-100'
         }`}
       >
         <Layout />
-        <DarkMode />
       </div>
     </>
   );

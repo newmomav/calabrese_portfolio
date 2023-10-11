@@ -5,10 +5,18 @@
 @import '@fontsource/roboto/700.css';
 
 @font-face {
-  font-family: 'paranoia';
-  src: url('../assets/paranoida-g.ttf') format('truetype');
+  font-family: 'abel';
+  src: url('../assets/abel-regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'calabrese';
   src: url('../assets/C123456789-Regular.otf') format('truetype');
+}
+@font-face {
+  font-family: 'cantarell-b';
+  src: url('../assets/Cantarell-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'cantarell-r';
+  src: url('../assets/Cantarell-Regular.ttf') format('truetype');
 }

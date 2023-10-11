@@ -16,7 +16,8 @@
 body {
   color: var(--body_color);
   font-family: 'Barlow', sans-serif;
-  font-family: 'Abel', sans-serif;
+  /* font-family: 'Abel', sans-serif; */
+  font-family: 'Courier New', Courier, monospace;
   background-color: var(--body_background);
   cursor: url('./assets/rose-xs.png'), auto;
 }
@@ -189,42 +190,20 @@ svg path.arrowBack {
     opacity: 1;
   }
 }
-nav ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-}
 
-nav li {
-  position: relative;
-  border: 1px solid var(--body_color);
-  width: 7rem;
-  text-align: center;
-  margin: 0;
-  padding: 0 20px;
-}
-
-nav a {
-  color: var(--body_color);
-  text-decoration: none;
-  padding: 15px 0;
-  display: block;
-  position: relative;
-  z-index: 1;
-}
-
-nav li::before {
+.arrow-active:hover::before {
   content: '';
+  display: block;
+  background-image: url('../assets/Menu-selection .png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 0;
-  background-color: var(--link_color);
-  z-index: -1; /* Place below the actual link */
-  transition: height 0.3s;
+  left: -2rem;
 }
 
-nav li:hover::before {
-  height: 100%;
+.horizontal-text {
+  writing-mode: vertical-rl;
+  line-height: 100px;
 }

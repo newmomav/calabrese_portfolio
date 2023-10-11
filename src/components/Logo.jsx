@@ -1,9 +1,8 @@
 const Logo = () => {
   return (
     <>
-      <div className="h-70 fixed top-3 left-3">
+      <div className="border border-red-300 w-full h-full z-10">
         <svg
-          height="50rem"
           strokeMiterlimit="10"
           style={{
             fillRule: 'nonzero',
@@ -12,7 +11,7 @@ const Logo = () => {
             strokeLinejoin: 'round',
           }}
           version="1.1"
-          viewBox="0 210 800 230"
+          viewBox="0 200 840 280"
           width="100%"
           xmlSpace="preserve"
           xmlns="http://www.w3.org/2000/svg"
