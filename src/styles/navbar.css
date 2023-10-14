@@ -1,0 +1,16 @@
+.arrow-active::before {
+  content: '';
+  display: block;
+  background-image: url('../assets/Menu-selection .png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: -2rem;
+  opacity: 0;
+}
+.arrow-active:hover::before {
+  opacity: 1;
+  transition: opacity 1s;
+}

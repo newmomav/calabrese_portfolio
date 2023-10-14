@@ -1,4 +1,5 @@
 @import './styles/fonts.css';
 @import './styles/variables.css';
 @import './styles/base.css';
-/* Import any other global or utility styles here */
+@import './styles/loader.css';
+@import './styles/navbar.css';

@@ -19,7 +19,7 @@ body {
   /* font-family: 'Abel', sans-serif; */
   font-family: 'Courier New', Courier, monospace;
   background-color: var(--body_background);
-  cursor: url('./assets/rose-xs.png'), auto;
+  cursor: url('../assets/rose-xs.png'), auto;
   transition:
     background-color 0.5s,
     color 0.5s;
@@ -39,253 +39,22 @@ svg path.arrowBack {
   fill: var(--body_color);
 }
 
-@keyframes fadeOut {
+.fade-in {
+  animation: fadeIn 1s forwards;
+  animation-delay: 8.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
   from {
-    opacity: 1;
-  }
-  to {
     opacity: 0;
   }
-}
-.fade-out {
-  animation: fadeOut 1s forwards;
-  animation-delay: 6s;
-}
-.fade-out2 {
-  animation: fadeOut 1s forwards;
-  animation-delay: 10s;
-}
-
-.loaderLogo {
-  font-size: 20vh;
-  font-family: 'calabrese';
-  color: #f5ebf3;
-  -webkit-box-reflect: below 1px linear-gradient(transparent, #f5ebf31c);
-  line-height: 18vh;
-  outline: none;
-  animation: animate 4s linear;
-  animation-fill-mode: forwards;
-}
-
-.loaderLogo2 {
-  font-size: 20vh;
-  font-family: 'calabrese';
-  color: #f5ebf3;
-  -webkit-box-reflect: below 1px linear-gradient(transparent, #f5ebf31c);
-  line-height: 18vh;
-  outline: none;
-  animation: animate2 4s linear;
-  animation-fill-mode: forwards;
-}
-
-@keyframes animate {
-  0%,
-  80%,
-  99.1% {
-    color: #000e0b;
-    text-shadow: none;
-  }
-
-  30%,
-  79.9%,
-  81.1%,
-  99%,
-  100% {
-    color: #f5ebf3;
-    text-shadow:
-      0 0 20px #85c1d3c7,
-      0 0 40px #94ddf3c7,
-      0 0 80px #58cef2c7,
-      0 0 160px #ebf5f8c7;
-  }
-}
-@keyframes animate2 {
-  80%,
-  99.1% {
-    color: #000e0b;
-    text-shadow: none;
-  }
-  0%,
-  30%,
-  79.9%,
-  81.1%,
-  99%,
-  100% {
-    color: #f5ebf3;
-    text-shadow:
-      0 0 20px #85c1d3c7,
-      0 0 40px #94ddf3c7,
-      0 0 80px #58cef2c7,
-      0 0 160px #ebf5f8c7;
-  }
-}
-/* .loaderLogo {
-  font-size: 9rem;
-  font-family: 'calabrese';
-  color: #f5ebf3;
-  text-shadow:
-    0 0 0 transparent,
-    0 0 10px #ff003c,
-    0 0 20px rgba(255, 0, 60, 1),
-    0 0 40px #ff003c,
-    0 0 100px #ff003c,
-    0 0 200px rgba(255, 0, 60, 1),
-    0 0 300px #ff003c,
-    0 0 500px #ff003c,
-    0 0 1000px #ff003c;
-  animation: animate 4s;
-}
-
-@keyframes animate {
-  20% {
-    opacity: 0.2;
-  }
-
-  20.5% {
+  to {
     opacity: 1;
   }
-
-  21% {
-    opacity: 0.9;
-  }
-
-  21.5% {
-    opacity: 1;
-  }
-
-  22% {
-    opacity: 0.7;
-  }
-
-  22.5% {
-    opacity: 1;
-  }
-
-  23% {
-    opacity: 0.9;
-  }
-
-  23.5% {
-    opacity: 1;
-  }
-
-  24% {
-    opacity: 0.8;
-  }
-
-  24.5% {
-    opacity: 1;
-  }
-
-  25% {
-    opacity: 0.8;
-  }
-
-  26% {
-    opacity: 0.72;
-  }
-
-  29% {
-    opacity: 0.9;
-  }
-
-  30% {
-    opacity: 1;
-  }
-
-  39% {
-    opacity: 1;
-  }
-
-  40% {
-    opacity: 0.8;
-  }
-  44.5% {
-    opacity: 1;
-  }
-
-  45% {
-    opacity: 0.7;
-  }
-
-  51% {
-    opacity: 1;
-  }
-
-  55% {
-    opacity: 0.8;
-  }
-
-  60% {
-    opacity: 1;
-    text-shadow:
-      0 0 0 transparent,
-      0 0 10px #ff003c,
-      0 0 20px rgba(255, 0, 60, 1),
-      0 0 40px #ff003c,
-      0 0 100px #ff003c,
-      0 0 200px rgba(255, 0, 60, 1),
-      0 0 300px #ff003c,
-      0 0 500px #ff003c,
-      0 0 1000px #ff003c;
-  }
-  64.5% {
-    opacity: 0.9;
-  }
-
-  65% {
-    opacity: 1;
-  }
-
-  59% {
-    opacity: 0.8;
-  }
-
-  60% {
-    opacity: 0.2;
-  }
-
-  61% {
-    opacity: 1;
-  }
-
-  77% { 
-opacity: 0.5;*/
-/* text-shadow:
-      0 0 0 transparent,
-      0 0 10px #ffffff,
-      0 0 20px rgba(255, 255, 255, 1),
-      0 0 40px #ffffff,
-      0 0 100px #ffffff,
-      0 0 200px rgba(255, 255, 255, 1),
-      0 0 300px #ffffff,
-      0 0 500px #ffffff,
-      0 0 1000px #ffffff;
-  }*/
-/* 78% {
-    opacity: 1;
-  }
-} */
-
-.arrow-active::before {
-  content: '';
-  display: block;
-  background-image: url('../assets/Menu-selection .png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 35px;
-  height: 35px;
-  position: absolute;
-  left: -2rem;
-  opacity: 0;
-}
-.arrow-active:hover::before {
-  opacity: 1;
-  transition: opacity 1s;
 }
 
 .horizontal-text {
-  writing-mode: vertical-rl;
+  writing-mode: vertical-lr;
   text-orientation: upright;
 }
 
@@ -306,4 +75,10 @@ opacity: 0.5;*/
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--body_color); /* color of the scroll thumb on hover */
+}
+
+.blend-multiply {
+  mix-blend-mode: difference;
+  mix-blend-mode: hard-light;
+  mix-blend-mode: luminosity;
 }
