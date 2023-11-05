@@ -1,8 +1,8 @@
 const Contact = () => {
   return (
-    <div id="contact">
+    <div className="pt-0 p-8 text-right">
       <p>
-        Studio Calabrese <br />
+        Anna Calabrese <br />
         Potsdamer Strasse 70 <br />
         10785 Berlin <br />
         <a href="mailto:calabrese@gmx.ch">calabrese@gmx.ch</a>

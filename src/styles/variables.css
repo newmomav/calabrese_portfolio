@@ -1,15 +1,21 @@
 :root {
   --body_background: #f6f5f6;
   --body_color: #011410;
-  --link_color: #329404;
-  --highlight-color: #e9cee9;
-  --background_image: url('../assets/IMG_9991.jpg');
+  --third_color: #329404;
+  --mouse: url('/Mouse-black.png');
+  --background_gif: url('/Kralle-gif.gif');
+  --profil_img: url('/annacalabrese.jpeg');
+  --background_xs: url('../assets/IMG_9986.jpg');
+  --background_mov: url('/landing pageIMG_1170.MOV');
 }
 
 [data-theme='dark'] {
   --body_background: #011410;
   --body_color: #f6f5f6;
-  --link_color: #329404;
-  --highlight-color: #e9cee9;
-  --background_image: url('../assets/IMG_9981.jpg');
+  --third_color: #329404;
+  --mouse: url('/Mouse-white.png');
+  --background_mov: url('/landing pageIMG_1170.MOV');
+  --background_xs: url('../assets/IMG_9986.jpg');
+  --background_gif: url('/Kralle-gif.gif');
+  --profil_img: url('/annacalabrese.jpeg');
 }

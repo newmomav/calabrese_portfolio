@@ -1,5 +1,5 @@
-// import { FaMoon } from 'react-icons/fa';
-// import { BsSunFill } from 'react-icons/bs';
+import { FiMoon } from 'react-icons/fi';
+import { BsSunFill } from 'react-icons/bs';
 
 import { useEffect } from 'react';
 import { useState } from 'react';
@@ -19,14 +19,14 @@ const DarkMode = () => {
   };
 
   return (
-    <div>
+    <div className="h-full flex justify-center">
       <button onClick={toggleTheme}>
         {isDarkMode === false ? (
-          // <BsSunFill className="text-[2rem] md:text-[3rem] lg:text-[5rem]" />
-          <em className="text-xs md:text-base lg:text-lg">light</em>
+          <BsSunFill className="text-[4rem] md:text-[5rem] lg:text-[7rem]" />
         ) : (
-          // <FaMoon className="text-[2rem] md:text-[3rem] lg:text-[5rem]" />
-          <em className="text-xs md:text-base lg:text-lg">dark</em>
+          // <em className="text-xs md:text-base lg:text-lg">light</em>
+          <FiMoon className="text-[3rem] md:text-[4rem] lg:text-[3rem]" />
+          // <em className="text-xs md:text-base lg:text-lg">dark</em>
         )}
       </button>
     </div>

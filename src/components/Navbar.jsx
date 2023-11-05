@@ -1,17 +1,21 @@
-/* eslint-disable react/prop-types */
-const Navbar = ({ items = [], onItemClick }) => {
+import { NavLink } from 'react-router-dom';
+
+const Navbar = () => {
+  const navLinks = [
+    { to: '/info', id: '1', title: 'info' },
+    { to: '/stockist', id: '2', title: 'stockist' },
+    { to: '/contact', id: '3', title: 'contact' },
+    { to: '/imprint', id: '4', title: 'imprint' },
+  ];
+
   return (
     <nav className="flex justify-start text-base md:text-xl lg:text-1xl xl:text-1xl pl-2 absolute">
       <ul>
-        {items.map((item, index) => (
-          <li key={index}>
-            <a
-              href={item.href}
-              onClick={() => onItemClick(item.label)}
-              className="arrow-active hover:text-red-200"
-            >
-              {item.label}
-            </a>
+        {navLinks.map((link) => (
+          <li key={link.id}>
+            <NavLink to={link.to} className="arrow-active hover:text-[#329404]">
+              {link.title}
+            </NavLink>
           </li>
         ))}
       </ul>

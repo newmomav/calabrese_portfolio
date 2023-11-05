@@ -1,19 +1,8 @@
 // eslint-disable-next-line react/prop-types
-const Imprint = ({ handlerReset }) => {
-  console.log('Imprint component rendered');
+const Imprint = () => {
   return (
-    <div id="imprint" className="z-60">
+    <div className="mr-2 pt-0 p-8 text-right">
       <h3> I M P R I N T</h3>
-      <button
-        className="cursor-pointer"
-        onClick={(e) => {
-          e.preventDefault();
-          console.log('Close button clicked');
-          handlerReset();
-        }}
-      >
-        Close
-      </button>
       <p>
         <strong>Verantwortlich für den Inhalt: Anna Calabrese </strong>
         Haftungsausschluss: Die bereitgestellten Informationen auf dieser

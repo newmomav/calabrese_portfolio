@@ -14,3 +14,11 @@
   font-family: 'cantarell-r';
   src: url('../assets/Cantarell-Regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'barlow';
+  src: url('../assets/BarlowCondensed-Light.otf') format('truetype');
+}
+@font-face {
+  font-family: 'cantarell-b-obl';
+  src: url('../assets/Cantarell-BoldOblique.ttf') format('truetype');
+}

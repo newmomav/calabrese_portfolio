@@ -1,14 +1,23 @@
 const LittleCopyright = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <div className="h-full w-full flex flex-col justify-between">
-      <p className="text-xs horizontal-text pt-4 self-center ">
-        &copy; {currentYear} Anna Calabrese. All rights reserved.
+    <div className="h-full w-full flex flex-col justify-between p-2 pt-10">
+      <p className="text-[0.6rem] horizontal-text self-center ">
+        &copy; Anna Calabrese. All rights reserved.
+        {/* Webshop coming soon! ❤ */}
       </p>
-      <small className="opacity-[0.2] text-center">
-        Designed <br />
-        by Lili
-      </small>
+      <div className="text-[0.6rem] horizontal-text self-center ">
+        <p className="opacity-[0.4] text-xs text-center">
+          Version {currentYear} <br />
+        </p>
+        <p className="opacity-[0.4] text-xs text-center">Designed by</p>
+        <a
+          href="#website"
+          className="opacity-[0.4] text-xs text-center block cursor-pointer see-me"
+        >
+          Lili
+        </a>
+      </div>
     </div>
   );
 };
