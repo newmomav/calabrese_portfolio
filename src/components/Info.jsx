@@ -1,6 +1,11 @@
+import { NavLink } from 'react-router-dom';
+
 const Info = () => {
   return (
-    <div className="pt-0 p-8 text-right">
+    <div className="p-2 text-right">
+      <NavLink to="/" className="text-[#329404]">
+        x
+      </NavLink>
       <h1>Anna Calabrese</h1>
       <p>
         studierte Philosophie, Gesellschafts- wissenschaften und Theorie und

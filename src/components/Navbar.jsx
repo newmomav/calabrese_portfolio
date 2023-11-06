@@ -1,15 +1,22 @@
 import { NavLink } from 'react-router-dom';
+import DarkMode from './DarkMode';
 
 const Navbar = () => {
   const navLinks = [
     { to: '/info', id: '1', title: 'info' },
     { to: '/stockist', id: '2', title: 'stockist' },
-    { to: '/contact', id: '3', title: 'contact' },
-    { to: '/imprint', id: '4', title: 'imprint' },
+    { to: '/archive', id: '3', title: 'archive' },
+    { to: '/contact', id: '4', title: 'contact' },
+    { to: '/imprint', id: '5', title: 'imprint' },
   ];
 
   return (
-    <nav className="flex justify-start text-base md:text-xl lg:text-1xl xl:text-1xl pl-2 absolute">
+    <nav
+      className="flex justify-start text-xs md:text-base lg:text-xl absolute"
+      style={{
+        wordBreak: 'break-word',
+      }}
+    >
       <ul>
         {navLinks.map((link) => (
           <li key={link.id}>
@@ -18,6 +25,9 @@ const Navbar = () => {
             </NavLink>
           </li>
         ))}
+        <li className="">
+          <DarkMode />
+        </li>
       </ul>
     </nav>
   );

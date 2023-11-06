@@ -1,7 +1,12 @@
+import { NavLink } from 'react-router-dom';
+
 // eslint-disable-next-line react/prop-types
 const Imprint = () => {
   return (
-    <div className="mr-2 pt-0 p-8 text-right">
+    <div className="pt-0 p-2 text-right">
+      <NavLink to="/" className="text-[#329404]">
+        x
+      </NavLink>
       <h3> I M P R I N T</h3>
       <p>
         <strong>Verantwortlich für den Inhalt: Anna Calabrese </strong>

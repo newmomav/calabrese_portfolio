@@ -1,6 +1,11 @@
+import { NavLink } from 'react-router-dom';
+
 const Contact = () => {
   return (
-    <div className="pt-0 p-8 text-right">
+    <div className="p-2 text-right">
+      <NavLink to="/" className="text-[#329404]">
+        x
+      </NavLink>
       <p>
         Anna Calabrese <br />
         Potsdamer Strasse 70 <br />

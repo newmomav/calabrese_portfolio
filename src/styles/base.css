@@ -15,7 +15,7 @@
 
 body {
   color: var(--body_color);
-  font-family: 'cantarell-r', sans-serif;
+  font-family: 'abel', sans-serif;
   background-color: var(--body_background);
   cursor:
     var(--mouse) 20 20,
@@ -23,7 +23,7 @@ body {
   transition:
     background-color 1s,
     color 1s;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 a {
@@ -60,26 +60,24 @@ svg path.arrowBack {
 
 /* For WebKit (Safari, Chrome, etc) */
 ::-webkit-scrollbar {
-  width: 15px;
-  height: 15px; /* width of the entire scrollbar */
+  width: 10px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--body_background); /* color of the tracking area */
+  background: var(--body_background);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--third_color); /* color of the scroll thumb */
-  border-radius: 50%; /* roundness of the scroll thumb */
+  background: var(--third_color);
+  border-radius: 50%;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--body_background); /* color of the scroll thumb on hover */
+  background: var(--body_color);
 }
 
 .blend-multiply {
-  /* mix-blend-mode: difference; */
-  /* mix-blend-mode: hard-light; */
   mix-blend-mode: luminosity;
 }
 
