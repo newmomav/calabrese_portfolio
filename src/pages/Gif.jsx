@@ -13,7 +13,7 @@ const Gif = ({ infoVisible }) => {
       {infoVisible && (
         <img
           className="absolute top-[15%] right-[10%] w-[40vh] object-cover z-50 blend-multiply"
-          src="/public/annacalabrese.jpeg"
+          src="/annacalabrese.jpeg"
           alt="Portait of artist Calabrese"
         />
       )}

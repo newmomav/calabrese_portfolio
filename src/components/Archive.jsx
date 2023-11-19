@@ -20,9 +20,9 @@ const Archive = ({ archiveVisible }) => {
       src: '/becher.jpg',
       alt: 'ceramic bowl in blue and white',
     },
-    { src: '/public/Kralle-gif.gif', alt: 'ceramic claw in beige as gif' },
+    { src: '/Kralle-gif.gif', alt: 'ceramic claw in beige as gif' },
     {
-      src: '/public/blauerose.jpg',
+      src: '/blauerose.jpg',
       alt: 'ceramic plate in blue and white',
     },
     {

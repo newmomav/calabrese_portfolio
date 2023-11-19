@@ -12,7 +12,7 @@ const Info = ({ infoVisible }) => {
       {infoVisible && (
         <img
           className="h-[60vh] w-full object-cover  blend-multiply"
-          src="/public/annacalabrese.jpeg"
+          src="/annacalabrese.jpeg"
           alt="Portait of artist Calabrese"
         />
       )}
