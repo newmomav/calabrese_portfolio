@@ -18,7 +18,7 @@ const Stockists = () => {
         <h2 className="text-4xl mb-2 mt-2 font-paranoia">Stockists</h2>
         <div className="border-b-2 border- pb-2">
           <h3>SLINA Store</h3>
-          <p>Flughafenstraße 32 12053 Berlin </p>
+          <p>Flughafenstraße 32, 12053 Berlin </p>
           <p>
             Instagram: <br />
             <a
@@ -31,7 +31,7 @@ const Stockists = () => {
         </div>
         <div className="border-b-2  pb-2">
           <h3>The Good Store</h3>
-          <p>Pannierstraße 31 12047 Berlin </p>
+          <p>Pannierstraße 31, 12047 Berlin </p>
           <a
             href="https://thegoodstore.berlin/"
             className="md:hover:font-paranoia"

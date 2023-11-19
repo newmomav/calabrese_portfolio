@@ -6,8 +6,8 @@ const Gif = ({ infoVisible }) => {
         autoPlay
         loop
         muted
-        src="/landing-page.MOV"
-        type="video/quicktime"
+        src="/landing-page.mp4"
+        type="video/mp4"
         alt="table full of ceramic table ware"
       />
       {infoVisible && (

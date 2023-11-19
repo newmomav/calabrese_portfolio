@@ -11,6 +11,7 @@ import Archivetext from './pages/Archivetext';
 import DarkMode from './components/DarkMode';
 import BurgerMenu from './components/BurgerMenu';
 import ErrorPage from './pages/ErrorPage';
+import { useEffect, useState } from 'react';
 
 const Layout = ({ children }) => {
   const location = useLocation();
@@ -40,6 +41,17 @@ const Layout = ({ children }) => {
   } else {
     mainContent = '';
   }
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    function handleResize() {
+      setIsMobile(window.innerWidth < 768);
+    }
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const videoStyle = {
     position: 'fixed', // Use 'fixed' to position it in the background
@@ -105,13 +117,20 @@ const Layout = ({ children }) => {
 
     <div
       className={`grid grid-cols-12 grid-rows-6 lg:grid-rows-5 md:gap-2 h-screen w-screen ${
-        isHomePage ? '' : 'photo-bg'
+        isHomePage && isMobile ? '' : 'photo-bg'
       } z-10`}
     >
-      {isHomePage && (
-        <video autoPlay loop muted playsInline style={videoStyle}>
-          <source src="/landing-page.mp4" type="video/mp4" />
-        </video>
+      {isHomePage && isMobile && (
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={videoStyle}
+          src="/landing-page.mp4"
+          type="video/mp4"
+          alt="table full of ceramic table ware"
+        />
       )}
       {gridItems.map((item, index) => (
         <div key={index} className={item.classes}>
