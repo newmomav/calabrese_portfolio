@@ -23,10 +23,6 @@ const Layout = ({ children }) => {
   const isErrorPage = !knownRoutes.includes(location.pathname);
 
   let mainContent;
-  // if (isHomePage) {
-  //   mainContent = <Gif />;
-  // } else
-
   if (isArchivePage) {
     mainContent = <Archive archiveVisible={isArchivePage} />;
   } else if (isInfoPage) {
@@ -40,6 +36,15 @@ const Layout = ({ children }) => {
   } else {
     mainContent = '';
   }
+
+  const backgroundItem = isHomePage
+    ? null
+    : {
+        content: (
+          <div className="absolute top-0 left-0 h-full w-full photo-bg" />
+        ),
+        classes: 'col-span-12 row-span-6 lg:row-span-5',
+      };
 
   const gridItems = [
     {
@@ -59,9 +64,11 @@ const Layout = ({ children }) => {
     {
       // For mobile screens, this grid cell dynamically shows content
       content: mainContent,
-      classes: `${
-        isHomePage ? 'pt-0' : 'pt-24'
-      } md:hidden col-span-12 row-span-6 overflow-y-auto max-h-screen z-10`,
+      classes:
+        // `${
+        //   isHomePage ? 'pt-0' : 'pt-24'
+        // } md:hidden col-span-12 row-span-6 overflow-y-auto max-h-screen z-10`,
+        'pt-24 md:hidden col-span-12 row-span-6 overflow-y-auto max-h-screen z-10',
     },
     {
       // For tablet and larger screens
@@ -89,21 +96,42 @@ const Layout = ({ children }) => {
     },
   ];
 
-  return (
-    // <div
-    //   className={`grid grid-cols-12 grid-rows-6 lg:grid-rows-5 md:gap-2 h-screen w-screen z-10`}
-    // >
+  const mainContainerClass = isHomePage ? 'video-bg' : 'photo-bg';
 
-    <div
-      className={`grid grid-cols-12 grid-rows-6 lg:grid-rows-5 md:gap-2 h-screen w-screen ${
-        isHomePage ? 'video-bg' : 'photo-bg'
-      } z-10`}
-    >
-      {gridItems.map((item, index) => (
-        <div key={index} className={item.classes}>
-          {item.content}
-        </div>
-      ))}
+  return (
+    <div className="relative h-screen w-screen">
+      {/* Video background - always present */}
+      <video
+        autoPlay
+        loop
+        muted
+        className="fixed top-0 left-0 min-w-full min-h-full -z-50"
+      >
+        <source src="/landing-page.MOV" type="video/mp4" />
+      </video>
+
+      {/* Conditional background image */}
+      <div className="grid grid-cols-12 grid-rows-6 lg:grid-rows-5 md:gap-2">
+        {gridItems.map(
+          (item, index) =>
+            item && (
+              <div key={index} className={item.classes}>
+                {item.content}
+              </div>
+            )
+        )}
+      </div>
+      {/* <div
+        className={`grid grid-cols-12 grid-rows-6 lg:grid-rows-5 md:gap-2 h-screen w-screen ${
+          isHomePage ? 'video-bg' : 'photo-bg'
+        }`}
+      >
+        {gridItems.map((item, index) => (
+          <div key={index} className={item.classes}>
+            {item.content}
+          </div>
+        ))}
+      </div> */}
     </div>
   );
 };

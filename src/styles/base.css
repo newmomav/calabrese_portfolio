@@ -35,10 +35,6 @@ svg path.calabrese {
   fill: var(--body_color);
 }
 
-svg path.arrowBack {
-  fill: var(--body_color);
-}
-
 .fade-in {
   animation: fadeIn 1s forwards;
   animation-delay: 8.5s;
@@ -60,17 +56,16 @@ svg path.arrowBack {
 
 /* For WebKit (Safari, Chrome, etc) */
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 7px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--body_background);
+  background: none;
 }
 
 ::-webkit-scrollbar-thumb {
   background: var(--third_color);
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -82,10 +77,44 @@ svg path.arrowBack {
 }
 
 .see-me {
-  transition: opacity 0.6s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .see-me:hover {
   opacity: 1;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 767px) {
+  .photo-bg {
+    background-image: var(--bg_xs);
+    background-size: cover;
+  }
+  .video-bg {
+    background: url(/Kralle-gif.gif) no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  /* For WebKit (Safari, Chrome, etc) */
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--third_color);
+    border-radius: 40%;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--body_color);
+  }
+}
+
+.component-container {
+  position: relative;
+  backdrop-filter: blur(10px);
 }

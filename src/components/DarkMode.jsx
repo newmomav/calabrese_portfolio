@@ -21,11 +21,9 @@ const DarkMode = () => {
     <div>
       <button onClick={toggleTheme}>
         {isDarkMode === false ? (
-          <FiSun className="text-xs md:text-base " />
+          <FiSun className="text-2xl md:text-base" />
         ) : (
-          // <em className="text-xs md:text-base lg:text-lg">light</em>
-          <FiMoon className="text-xs md:text-base" />
-          // <em className="text-xs md:text-base lg:text-lg">dark</em>
+          <FiMoon className="text-2xl md:text-base" />
         )}
       </button>
     </div>

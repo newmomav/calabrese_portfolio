@@ -1,24 +1,9 @@
+const plugin = require('tailwindcss/plugin');
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      dropShadow: {
-        '1xl': ['2px 2px 2px #cbd5e1'],
-        '4xl': [
-          '0 35px 35px rgba(0, 0, 0, 0.25)',
-          '0 45px 65px rgba(0, 0, 0, 0.15)',
-        ],
-      },
-      utilities: {
-        '.blend-multiply': {
-          'mix-blend-mode': 'multiply',
-        },
-      },
-      backgroundImage: {
-        'hero-pattern': "url('./src/assets/IMG_9981.jpg')",
-        'logo-calabrese': "url('./src/assets/Calabrese.svg')",
-      },
       colors: {
         primary: '#e2e8f0',
         secondary: '#aaa6c3',
@@ -35,20 +20,30 @@ export default {
       screens: {
         xs: '450px',
       },
-      textShadow: {
-        burning:
-          '2px 2px 3px #aaa6c3, -2px -2px 3px #FFF, 2px -2px 3px #FFF, -2px 2px 3px #FFF',
-      },
     },
     fontFamily: {
-      paranoia: ['paranoia'],
-      calabrese: ['calabrese'],
-      barlow: ['Barlow'],
+      paranoia: ['paranoia-calabrese'],
+      calabrese: ['calabrese', 'abel'],
       abel: ['abel'],
-      cantarellb: ['cantarell-b'],
-      cantarellr: ['cantarell-r'],
-      cantarellbobl: ['cantarell-b-obl'],
+      schnorkelei: ['schnorkelei', 'abel'],
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      const newUtilities = {
+        '.blend-multiply': {
+          'mix-blend-mode': 'multiply',
+        },
+        '.textShadow-light': {
+          'text-shadow':
+            '2px 2px 3px #aaa6c3, -2px -2px 3px #FFF, 2px -2px 3px #FFF, -2px 2px 3px #FFF',
+        },
+        '.textShadow-dark': {
+          'text-shadow':
+            ' 2px 2px 3px #000, -2px -2px 3px #333, 2px -2px 3px #333, -2px 2px 3px #333',
+        },
+      };
+      addUtilities(newUtilities);
+    }),
+  ],
 };
