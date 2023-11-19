@@ -90,10 +90,6 @@ svg path.calabrese {
     background-image: var(--bg_xs);
     background-size: cover;
   }
-  .video-bg {
-    background: url(/Kralle-gif.gif) no-repeat center center fixed;
-    background-size: cover;
-  }
 
   /* For WebKit (Safari, Chrome, etc) */
   ::-webkit-scrollbar {

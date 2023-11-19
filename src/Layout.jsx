@@ -41,6 +41,15 @@ const Layout = ({ children }) => {
     mainContent = '';
   }
 
+  const videoStyle = {
+    position: 'fixed', // Use 'fixed' to position it in the background
+    right: '0',
+    bottom: '0',
+    minWidth: '100%',
+    minHeight: '100%',
+    zIndex: '-1', // Ensure video is behind other content
+  };
+
   const gridItems = [
     {
       content: <Logo />,
@@ -96,9 +105,14 @@ const Layout = ({ children }) => {
 
     <div
       className={`grid grid-cols-12 grid-rows-6 lg:grid-rows-5 md:gap-2 h-screen w-screen ${
-        isHomePage ? 'video-bg' : 'photo-bg'
+        isHomePage ? '' : 'photo-bg'
       } z-10`}
     >
+      {isHomePage && (
+        <video autoPlay loop muted playsInline style={videoStyle}>
+          <source src="/landing-page.mp4" type="video/mp4" />
+        </video>
+      )}
       {gridItems.map((item, index) => (
         <div key={index} className={item.classes}>
           {item.content}

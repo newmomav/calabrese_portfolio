@@ -4,9 +4,9 @@
   --third_color: #329404;
   --mouse: url('/Mouse-black.png');
   --background_gif: url('/Kralle-gif.gif');
-  --background_mov: url('/landing-page.MOV');
+  --background_mov: url('/landing-page.mp4');
   --profil_img: url('/annacalabrese.jpeg');
-  --bg_xs: url('/public/bg-light.jpg');
+  --bg_xs: url('/bg-light.jpg');
 }
 
 [data-theme='dark'] {
@@ -15,7 +15,7 @@
   --third_color: #329404;
   --mouse: url('/Mouse-white.png');
   --background_gif: url('/Kralle-gif.gif');
-  --background_mov: url('/landing-page.MOV');
+  --background_mov: url('/landing-page.mp4');
   --profil_img: url('/annacalabrese.jpeg');
-  --bg_xs: url('/public/bg-rose.jpg');
+  --bg_xs: url('/bg-rose.jpg');
 }
