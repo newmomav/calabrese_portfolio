@@ -5,10 +5,32 @@ const Imprint = () => {
     <div className="pl-12 pr-12 text-justify md:text-right md:pr-2 md:pl-6">
       <NavLink
         to="/"
-        className="text-4xl text-[#329404] font-schnorkelei active:text-[#329404] focus:font-bold md:hover:font-semibold"
+        className="text-4xl text-[#329404] font-schnorkelei  focus:font-paranoia md:hover:font-paranoia"
       >
         x
       </NavLink>
+      <div
+        className="space-y-2 mb-8 "
+        style={{
+          wordBreak: 'break-word',
+        }}
+      >
+        <h2 className="text-4xl font-paranoia">Contact</h2>
+        <p>
+          Anna Calabrese
+          <br />
+          <p>
+            <a
+              href="mailto:mail@annacalbrese.com"
+              className="cursor-pointer hover:text-[#329404]"
+            >
+              mail@annacalbrese.com
+            </a>
+            {/* <br />
+            +49 176 658 027 40 */}
+          </p>
+        </p>
+      </div>
       <div
         className="space-y-2"
         style={{
@@ -16,7 +38,6 @@ const Imprint = () => {
         }}
       >
         <h2 className="text-4xl font-paranoia">Imprint</h2>
-
         <p className="font-semibold ">Legal Notice</p>
         <p>
           Anna Calabrese
@@ -25,16 +46,7 @@ const Imprint = () => {
           <br />
           13359 Berlin
         </p>
-        <p>
-          <a
-            href="mailto:calabrese@gmx.ch"
-            className="cursor-pointer hover:text-[#329404]"
-          >
-            calabrese@gmx.ch
-          </a>
-          <br />
-          +49 176 658 027 40
-        </p>
+
         <p>Responsible for Content: Anna Calabrese</p>
         <p className="border-b border-opacity-80 border-[var(--body_color)] pb-2 mb-8">
           This Legal Notice complies with the German laws under § 5 TMG and §
@@ -67,7 +79,7 @@ const Imprint = () => {
         </p>
       </div>
       <small className="block mt-4">
-        Last Updated: November 2023 ❥ :*¨༺ ♱✮♱ ༻¨*:·
+        Last Update: November 2023 ❥ :*¨༺ ♱✮♱ ༻¨*:·
       </small>
     </div>
   );

@@ -1,6 +1,9 @@
 :root {
-  --body_background: #f6f5f6;
-  --body_color: #011410;
+  --body_background: #e9dfe9d0;
+  --body_background: #b690845b;
+
+  --body_color2: #1ae052;
+  --body_color: #011e09;
   --third_color: #329404;
   --mouse: url('/Mouse-black.png');
   --background_gif: url('/Kralle-gif.gif');
@@ -10,12 +13,12 @@
 }
 
 [data-theme='dark'] {
-  --body_background: #011410;
-  --body_color: #f6f5f6;
+  --body_background: #011e09;
+  --body_color: #dbcdc9;
+  /* --body_color: #e9dfe9d0; */
+  --body_color2: #1ae052;
+
   --third_color: #329404;
   --mouse: url('/Mouse-white.png');
-  --background_gif: url('/Kralle-gif.gif');
-  --background_mov: url('/landing-page.mp4');
-  --profil_img: url('/annacalabrese.jpeg');
   --bg_xs: url('/bg-rose.jpg');
 }

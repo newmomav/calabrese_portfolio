@@ -5,7 +5,7 @@ const Archivetext = () => {
     <div className="pt-0 p-2 pl-6 text-right">
       <NavLink
         to="/"
-        className="text-[2rem] text-[#329404] font-schnorkelei hover:font-semibold"
+        className="text-4xl text-[#329404] font-schnorkelei  focus:font-paranoia md:hover:font-paranoia"
       >
         x
       </NavLink>

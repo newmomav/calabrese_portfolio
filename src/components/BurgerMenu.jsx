@@ -5,10 +5,10 @@ import { useState } from 'react';
 const BurgerMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navLinks = [
-    { to: '/info', id: '1', title: 'info' },
-    { to: '/stockist', id: '2', title: 'stockist' },
-    { to: '/archive', id: '3', title: 'archive' },
-    { to: '/imprint', id: '4', title: 'imprint' },
+    { to: '/info', id: '1', title: 'Info' },
+    { to: '/stockist', id: '2', title: 'Stockists' },
+    { to: '/archive', id: '3', title: 'Archive' },
+    { to: '/imprint', id: '4', title: 'Contact' },
   ];
 
   return (

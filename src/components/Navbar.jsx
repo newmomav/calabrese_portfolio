@@ -6,7 +6,7 @@ const Navbar = () => {
     { to: '/info', id: '1', title: 'Info' },
     { to: '/stockists', id: '2', title: 'Stockists' },
     { to: '/archive', id: '3', title: 'Archive' },
-    { to: '/imprint', id: '4', title: 'Imprint' },
+    { to: '/imprint', id: '4', title: 'Contact' },
   ];
 
   return (

@@ -5,7 +5,7 @@ const Info = ({ infoVisible }) => {
     <div className="pl-12 pr-12 text-justify md:p-2 md:text-right blend-multiply">
       <NavLink
         to="/"
-        className="text-4xl text-[#329404] font-schnorkelei active:text-[#329404] focus:font-bold md:hover:font-semibold"
+        className="text-4xl text-[#329404] font-schnorkelei  focus:font-paranoia md:hover:font-paranoia"
       >
         x
       </NavLink>
@@ -30,15 +30,17 @@ const Info = ({ infoVisible }) => {
         </p>
         <p>Instagram:</p>
         <a
+          target="_blank"
           href="https://www.instagram.com/calabreseoffiziell/"
-          className="focus:font-vold active:tex-[#329404] md:hover:text-[#329404]"
+          className="active:font-paranoia md:hover:font-paranoia"
         >
           calabreseoffiziell
         </a>
         <p>Academia:</p>
         <a
+          target="_blank"
           href="https://tu-berlin.academia.edu/AnnaCalabrese"
-          className="focus:font-vold active:tex-[#329404] md:hover:text-[#329404]"
+          className="active:font-paranoia md:hover:font-paranoia"
         >
           https://tu-berlin.academia.edu/AnnaCalabrese
         </a>

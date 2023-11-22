@@ -1,6 +1,6 @@
 import Home from '../pages/Home';
 import Info from '../pages/Info';
-import Archivetext from '../pages/Archivetext';
+import Archivetext from '../components/Archivetext';
 import Stockists from '../pages/Stockists';
 import Imprint from '../pages/Imprint';
 import ErrorPage from '../pages/ErrorPage';
