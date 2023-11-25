@@ -1,218 +1,226 @@
 export const sliderData = [
   {
-    src: '/becher-b-w.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramic-bowl-green.jpg',
+    alt: 'ceramic bowl green baroque with pink worms in sink',
   },
   {
-    src: '/herzstacheldraht.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramic-bowl-green2.jpg',
+    alt: 'ceramic bowl green baroque with pink worms',
   },
   {
-    src: 'becher-b-wdetail.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
-  },
-
-  {
-    src: '/becher.jpg',
-    alt: 'ceramic bowl in blue and white',
-  },
-  { src: '/Kralle-gif.gif', alt: 'ceramic claw in beige as gif' },
-  {
-    src: '/blauerose.jpg',
-    alt: 'ceramic plate in blue and white',
+    src: '/ArchiveFotoskomprimiert/ceramic-candleholder-rosebud-berry.jpg',
+    alt: 'ceramic candleholder rosebud berry',
   },
   {
-    src: '/schüssel3beinig3.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramic-candleholder-rosebud-bluegreen.jpg',
+    alt: 'ceramic candleholder rosebud bluegreen',
   },
   {
-    src: '/herzfolie.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramic-candleholder-rosebud-bluegreen-sideview.jpg',
+    alt: 'ceramic candleholder rosebud bluegreen sideview',
   },
   {
-    src: '/becher-b-wdetail2.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramic-candleholder-rosebud-bluegreen2.jpg',
+    alt: 'ceramic candleholder rosebud bluegreen',
   },
   {
-    src: '/blauerose2.jpg',
-    alt: 'ceramic claw with pink worms',
+    src: '/ArchiveFotoskomprimiert/ceramic-claw-ringholder-beige.jpg',
+    alt: 'ceramic claw ringholder beige',
   },
   {
-    src: '/becher2.jpg',
-    alt: 'ceramic cup in blue and white/beige',
+    src: '/ArchiveFotoskomprimiert/ceramic-claw-ringholder-beige-worms.jpg',
+    alt: 'ceramic claw ringholder beige with blue worms',
   },
   {
-    src: '/blume.jpg',
-    alt: 'ceramic bowl in blue and white',
+    src: '/ArchiveFotoskomprimiert/ceramic-claw-ringholder-brown.jpg',
+    alt: 'ceramic claw ringholder brown on frozen ivy',
   },
   {
-    src: '/vaseundfisch.JPG',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramic-claw-ringholder-brown-worms.jpg',
+    alt: 'ceramic claw ringholder brown with pink worms',
   },
   {
-    src: '/handaufeis.JPG',
-    alt: 'ceramic bowl in blue and white',
-  },
-  // {
-  //   src: '/handknochen.jpg',
-  //   alt: 'ceramic object in brown, not very clear hat to use for',
-  // },
-  {
-    src: '/handkroko.jpg',
-    alt: 'ribbon for packaging made out of ceramic in blue',
+    src: '/ArchiveFotoskomprimiert/ceramic-claw-ringholder-green-business.jpg',
+    alt: 'ceramic claw ringholder green business',
   },
   {
-    src: '/handpink.jpg',
-    alt: 'ceramic bowl in blue and white',
+    src: '/public/ArchiveFotoskomprimiert/ceramic-claw-ringholder-green-flames.jpg',
+    alt: 'ceramic claw ringholder green with flames',
   },
   {
-    src: '/handstacheldraht.jpg',
-    alt: 'ceramic rose candleholder in mauve',
+    src: '/ArchiveFotoskomprimiert/ceramic-claw-ringholder-green-flames2.jpg',
+    alt: 'ceramic claw ringholder green with flames in front of white background',
   },
   {
-    src: '/schüssel-b-w4.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramic-claw-ringholder-green-worms.jpg',
+    alt: 'ceramic claw ringholder green flesh worm detail',
   },
   {
-    src: '/becherdetail.jpg',
-    alt: 'bowl standing on three legs',
+    src: '/ArchiveFotoskomprimiert/ceramic-claw-ringholder-pink.jpg',
+    alt: 'ceramic claw ringholder pink with bronze chain detail',
   },
   {
-    src: '/handaufblättern.JPG',
-    alt: 'ceramic plate in blue and white',
+    src: '/ArchiveFotoskomprimiert/ceramic-flower-plate.jpg',
+    alt: 'ceramic flower plate butteryellow',
   },
   {
-    src: '/handgrün.jpg',
-    alt: 'ceramic rose candleholder in mauve',
+    src: '/ArchiveFotoskomprimiert/ceramic-piece-mortadella-flower.jpg',
+    alt: 'ceramic piece mortadella flower in front of aquarium sideview',
   },
   {
-    src: '/handweiß.jpg',
-    alt: 'ceramic vase in front of fishes',
-  },
-  // {
-  //   src: '/hütchenrot.jpg',
-  //   alt: 'ceramic bowl in blue and white',
-  // },
-  {
-    src: '/rosemauve.jpg',
-    alt: 'ceramic bowl in blue and white',
-  },
-
-  {
-    src: '/handweiß2.jpg',
-    alt: 'ceramic vase in front of fishes',
+    src: '/ArchiveFotoskomprimiert/ceramic-piece-mortadella-flower2.jpg',
+    alt: 'ceramic piece mortadella flower in front of aquarium',
   },
   {
-    src: '/rosemauvedetail.jpg',
-    alt: 'ceramic bowl in blue and white',
+    src: '/ArchiveFotoskomprimiert/ceramic-ribbon-jeansglaze.jpg',
+    alt: 'ceramic ribbon with jeansglaze on dresser',
   },
   {
-    src: '/schüssel-b-w5.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramic-ringholder-claw-white1.jpg',
+    alt: 'ceramic claw ringholder in white detail',
   },
   {
-    src: '/rückenkratzer.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/Kralle-gif.gif',
+    alt: 'ceramic claw ringholder animates',
   },
   {
-    src: '/teller-b-w2.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramic-ringholder-claw-white-worm.jpg',
+    alt: 'ceramic claw ringholder in white wormdetail',
   },
   {
-    src: '/teller-b-w3.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramic-wallpiece-burning-heart.jpg',
+    alt: 'ceramic wallpiece burning heart bubblewrap',
   },
   {
-    src: '/schleife.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramic-wallpiece-heart.jpg',
+    alt: 'ceramic wallpiece heart in chains espressobrown',
   },
   {
-    src: '/schüssel-b-w-6.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
-  },
-
-  {
-    src: '/schüssel3beinig.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramicbowlbluewhite.jpg',
+    alt: 'ceramic bowl blue white',
   },
   {
-    src: '/rosemauve2.jpg',
-    alt: 'ceramic bowl in blue and white',
+    src: '/ArchiveFotoskomprimiert/ceramiccandleholderberrydetail.jpg',
+    alt: 'ceramic candleholder berry detail',
   },
   {
-    src: '/schüssel-b-w2.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramicclawringholdergreen.jpg',
+    alt: 'ceramic claw ringholder green',
   },
   {
-    src: '/schüssel-b-w3.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramicobjectartichoke.jpg',
+    alt: 'ceramic object articheoke',
   },
   {
-    src: '/schüssel-b-wdetail.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
-  },
-  // {
-  //   src: '/handjuli.jpg',
-  //   alt: 'ceramic claw on frozen leaves',
-  // },
-  // {
-  //   src: '/schüssel-b-whand.jpg',
-  //   alt: 'ceramic claw in green, handmodel husband of artist',
-  // },
-  {
-    src: '/schüssel-b-w.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/ceramicrosebudcandleholderberry.jpg',
+    alt: 'ceramic rosebud candleholder berry',
   },
   {
-    src: '/schüssel3beinig4.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/mortadella-flower.gif',
+    alt: 'mortadella flower animated',
   },
   {
-    src: '/schüsselduo.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/stoneware-bowl-beige-blue-white.jpg',
+    alt: 'stoneware bowl beige blue white detail',
   },
   {
-    src: '/schüsselgrün.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/stoneware-bowl-three-legs.jpg',
+    alt: 'stoneware bowl on three legs held by hand',
   },
   {
-    src: '/schüsselapfel.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/stoneware-bowl-three-legs2.jpg',
+    alt: 'stoneware bowl on three short legs brown blue',
   },
   {
-    src: '/teller-b-w.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/stoneware-bowl-white-beige-blue.jpg',
+    alt: 'stoneware bowl white beige blue downsideup',
   },
   {
-    src: '/schüssel3beinig2.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/stoneware-bowl-white-beige-blue2.jpg',
+    alt: 'stoneware bowl white beige blue',
   },
   {
-    src: '/teller-b-wboden.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/stoneware-bowl-white-beige-blue3.jpg',
+    alt: 'stoneware bowl white beige blue held by hand',
   },
   {
-    src: '/teller-b-wbodendetail.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/stoneware-bowl-three-short-legs.jpg',
+    alt: 'stoneware bowl on three short legs detail',
   },
   {
-    src: '/teller-b-wdetail.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/stoneware-cup-whitebeige.jpg',
+    alt: 'stoneware cup white blue beige detail',
   },
   {
-    src: '/schüsselgrün2.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/stoneware-cup-whiteblue.jpg',
+    alt: 'stoneware cup white blue beige',
   },
   {
-    src: '/teller-o-w.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/stoneware-cup-whiteblue2.jpg',
+    alt: 'stoneware cup white blue beige detail',
   },
   {
-    src: '/tellermini.jpg',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/stoneware-cup-whiteblue3.jpg',
+    alt: 'stoneware cup white blue beige detail',
   },
   {
-    src: '/vaseundfisch2.JPG',
-    alt: 'ceramic claw in green, handmodel husband of artist',
+    src: '/ArchiveFotoskomprimiert/stoneware-cup-jeans3.jpg',
+    alt: 'stoneware cup jeans washed out',
+  },
+  {
+    src: '/ArchiveFotoskomprimiert/stoneware-cup-jeans4.jpg',
+    alt: 'stoneware cup jeans washed out',
+  },
+  {
+    src: '/ArchiveFotoskomprimiert/stoneware-plate-ancient-graffiti1.jpg',
+    alt: 'stoneware plate ancient graffiti back',
+  },
+  {
+    src: '/ArchiveFotoskomprimiert/stoneware-plate-ancient-graffiti.jpg',
+    alt: 'stoneware plate ancient graffiti blue beige full',
+  },
+  {
+    src: '/ArchiveFotoskomprimiert/stoneware-plate-ancient-graffiti2.jpg',
+    alt: 'stoneware plate ancient graffiti blue beige full2',
+  },
+  {
+    src: '/ArchiveFotoskomprimiert/stoneware-plate-ancient-graffiti3.jpg',
+    alt: 'stoneware plate ancient graffiti detail',
+  },
+  {
+    src: '/ArchiveFotoskomprimiert/stoneware-plate-ancient-graffiti4.jpg',
+    alt: 'stoneware plate ancient graffiti front',
+  },
+  {
+    src: '/ArchiveFotoskomprimiert/stoneware-plate-ancient-graffiti5.jpg',
+    alt: 'stoneware plate ancient graffiti white blue',
+  },
+  {
+    src: '/ArchiveFotoskomprimiert/stoneware-plate-brown-beige.jpg',
+    alt: 'stoneware plate brown beige in front of blue wall',
+  },
+  {
+    src: '/ArchiveFotoskomprimiert/stoneware-plate-detail.jpg',
+    alt: 'stoneware plate glaze detail',
+  },
+  {
+    src: '/ArchiveFotoskomprimiert/stonewarebowlbluewhitedownsideup.jpg',
+    alt: 'stoneware bowl blue white downsideup',
+  },
+  {
+    src: '/ArchiveFotoskomprimiert/stonewarebowlonthreelegs.jpg',
+    alt: 'stoneware bowl on three legs',
+  },
+  {
+    src: '/ArchiveFotoskomprimiert/stonewarebowlbluewhite.jpg',
+    alt: 'stoneware bowl blue white2',
+  },
+  {
+    src: '/ArchiveFotoskomprimiert/stonewarebowlwithapple.jpg',
+    alt: 'stoneware bowl blue white with apple',
+  },
+  {
+    src: '/ArchiveFotoskomprimiert/stoneware-bowls-tears-sgraffito.jpg',
+    alt: 'stoneware bowls tiny with tears sgraffito',
   },
 ];

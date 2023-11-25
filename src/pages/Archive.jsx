@@ -6,13 +6,6 @@ import { sliderData } from '../components/sliderData.js';
 const Archive = ({ archiveVisible }) => {
   const [selectedImage, setSelectedImage] = useState(null);
 
-  useEffect(() => {
-    console.log('Archive Mounted');
-    return () => {
-      console.log('Archive Unmounted');
-    };
-  }, []);
-
   const handleImageClick = (imageSrc, index) => {
     setSelectedImage(imageSrc);
   };

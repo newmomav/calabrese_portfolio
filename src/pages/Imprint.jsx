@@ -24,7 +24,7 @@ const Imprint = () => {
               href="mailto:mail@annacalbrese.com"
               className="cursor-pointer hover:text-[#329404]"
             >
-              mail@annacalbrese.com
+              mail@annacalabrese.com
             </a>
             {/* <br />
             +49 176 658 027 40 */}
