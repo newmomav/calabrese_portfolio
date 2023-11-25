@@ -122,7 +122,7 @@ const Layout = ({ children }) => {
     >
       {isHomePage && isMobile && (
         <img
-          src="/public/landing-page.gif"
+          src="landing-page.gif"
           alt="table full of ceramic"
           style={videoStyle}
         />

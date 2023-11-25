@@ -12,7 +12,7 @@ const Gif = ({ infoVisible }) => {
       /> */}
       <img
         className="h-full w-full object-cover"
-        src="/public/landing-page.gif"
+        src="/landing-page.gif"
         alt="table full of ceramic table ware and decatend food"
       />
       {infoVisible && (
