@@ -121,16 +121,21 @@ const Layout = ({ children }) => {
       } z-10`}
     >
       {isHomePage && isMobile && (
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
+        <img
+          src="/public/landing-page.gif"
+          alt="table full of ceramic"
           style={videoStyle}
-          src="/landing-page.mp4"
-          type="video/mp4"
-          alt="table full of ceramic table ware"
         />
+        // <video
+        //   autoPlay
+        //   loop
+        //   muted
+        //   playsInline
+        //   style={videoStyle}
+        //   src="/landing-page.mp4"
+        //   type="video/mp4"
+        //   alt="table full of ceramic table ware"
+        // />
       )}
       {gridItems.map((item, index) => (
         <div key={index} className={item.classes}>
