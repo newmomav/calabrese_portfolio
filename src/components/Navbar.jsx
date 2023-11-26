@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="flex justify-start text-xs md:text-base lg:text-xl absolute "
+      className="flex justify-start text-xs md:text-sm lg:text-xl absolute "
       style={{
         wordBreak: 'break-word',
       }}

@@ -8,7 +8,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    if (window.innerWidth <= 576) {
+    if (window.innerWidth <= 768) {
       setIsLoading(false);
       return;
     }
