@@ -5,6 +5,7 @@ const Gif = ({ infoVisible }) => {
         className="h-full w-full object-cover z-0"
         autoPlay
         loop
+        playsInline
         muted
         src="/landing-page.mp4"
         type="video/mp4"
