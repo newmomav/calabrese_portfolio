@@ -26,7 +26,7 @@ const Info = ({ infoVisible }) => {
         <p>
           studied Philosophy, Social Sciences and "Theorie und Geschichte der
           Wissenschaft und Technik" in Basel, Berlin and Leipzig. Her practice
-          comprises text, textile, ceramics,painting and care-work.
+          comprises text, textile, ceramics, painting and care-work.
         </p>
         <p>Instagram:</p>
         <a

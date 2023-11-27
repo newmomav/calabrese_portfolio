@@ -1,23 +1,20 @@
 :root {
-  --body_background: #f8f8f8d0;
+  /* --body_background: #f8f8f8d0; */
   --body_background: #f5ebe8;
-
   --body_color2: #1ae052;
-  --body_color: #011e09;
+  --body_color: #031502;
   --third_color: #329404;
   --mouse: url('/Mouse-black.png');
-  --background_gif: url('/Kralle-gif.gif');
-  --background_mov: url('/landing-page.mp4');
+  --background_mov: url('/landing-page.gif');
   --profil_img: url('/annacalabrese.jpeg');
   --bg_xs: url('/bg-light.jpg');
 }
 
 [data-theme='dark'] {
-  --body_background: #011e09;
+  --body_background: #031502;
   --body_color: #f5ebe8;
   /* --body_color: #e9dfe9d0; */
   --body_color2: #1ae052;
-
   --third_color: #329404;
   --mouse: url('/Mouse-white.png');
   --bg_xs: url('/bg-rose.jpg');

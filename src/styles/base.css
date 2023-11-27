@@ -116,8 +116,20 @@ svg path.calabrese {
 }
 
 .e {
-  margin-left: -1.86rem;
+  margin-left: -1.6rem;
 }
 .se {
-  margin-left: 1.1rem;
+  margin-left: 0.7rem;
+}
+
+bg-video {
+  background-image: url('/landing-page.mp4');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: white;
 }

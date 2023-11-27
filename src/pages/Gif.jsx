@@ -5,11 +5,17 @@ const Gif = ({ infoVisible }) => {
         className="h-full w-full object-cover z-0"
         autoPlay
         loop
+        playsInline
         muted
         src="/landing-page.mp4"
         type="video/mp4"
         alt="table full of ceramic table ware"
       />
+      {/* <img
+        className="h-full w-full object-cover"
+        src="/landing-page.gif"
+        alt="table full of ceramic table ware and decatend food"
+      /> */}
       {infoVisible && (
         <img
           className="absolute top-[15%] right-[10%] w-[40vh] object-cover z-50 blend-multiply"
