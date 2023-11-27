@@ -13,7 +13,7 @@ const LittleCopyright = () => {
         </p>
         <p className="opacity-[0.4] text-xs text-right">designed by</p>
         <a
-          href="#website"
+          href="mailto:lili@avar.online"
           className="opacity-[0.4] text-xs text-right block cursor-pointer see-me"
         >
           Lili

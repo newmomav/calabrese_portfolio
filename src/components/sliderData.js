@@ -44,7 +44,7 @@ export const sliderData = [
     alt: 'ceramic claw ringholder green business',
   },
   {
-    src: '/public/ArchiveFotoskomprimiert/ceramic-claw-ringholder-green-flames.jpg',
+    src: '/ArchiveFotoskomprimiert/ceramic-claw-ringholder-green-flames.jpg',
     alt: 'ceramic claw ringholder green with flames',
   },
   {

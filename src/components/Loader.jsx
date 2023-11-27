@@ -2,7 +2,7 @@ const Loader = () => {
   return (
     <>
       <div
-        style={{ background: '#000e0b' }}
+        style={{ background: '#031502' }}
         className=" fixed top-0 left-0 h-screen w-screen z-50 flex items-center justify-center fade-out"
       >
         <h1 className="loaderLogo">
