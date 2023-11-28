@@ -22,7 +22,7 @@ const Imprint = () => {
           <p>
             <a
               href="mailto:mail@annacalabrese.com"
-              className="cursor-pointer hover:font-paranoia"
+              className="active:font-paranoia md:hover:font-paranoia"
             >
               mail@annacalabrese.com
             </a>

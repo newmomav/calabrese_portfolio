@@ -1,7 +1,5 @@
 {
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/" },
+  "headers": [
     {
       "source": "/assets/(.*)",
       "headers": [
@@ -20,5 +18,6 @@
         }
       ]
     }
-  ]
+  ],
+  "routes": [{ "handle": "filesystem" }, { "src": "/(.*)", "dest": "/" }]
 }
