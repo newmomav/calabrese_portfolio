@@ -21,7 +21,10 @@
   animation-fill-mode: forwards;
 }
 @keyframes animate {
-  0%,
+  0% {
+    color: #031502;
+    text-shadow: none;
+  }
   70%,
   99.1% {
     color: #031502;
@@ -53,6 +56,10 @@
   animation-fill-mode: forwards;
 }
 @keyframes animate2 {
+  0% {
+    color: #031502;
+    text-shadow: none;
+  }
   80%,
   99.1% {
     color: #031502;
@@ -72,150 +79,3 @@
       0 0 160px #ebf5f8c7;
   }
 }
-/* .loaderLogo {
-  font-size: 9rem;
-  font-family: 'calabrese';
-  color: #f5ebf3;
-  text-shadow:
-    0 0 0 transparent,
-    0 0 10px #ff003c,
-    0 0 20px rgba(255, 0, 60, 1),
-    0 0 40px #ff003c,
-    0 0 100px #ff003c,
-    0 0 200px rgba(255, 0, 60, 1),
-    0 0 300px #ff003c,
-    0 0 500px #ff003c,
-    0 0 1000px #ff003c;
-  animation: animate 4s;
-}
-
-@keyframes animate {
-  20% {
-    opacity: 0.2;
-  }
-
-  20.5% {
-    opacity: 1;
-  }
-
-  21% {
-    opacity: 0.9;
-  }
-
-  21.5% {
-    opacity: 1;
-  }
-
-  22% {
-    opacity: 0.7;
-  }
-
-  22.5% {
-    opacity: 1;
-  }
-
-  23% {
-    opacity: 0.9;
-  }
-
-  23.5% {
-    opacity: 1;
-  }
-
-  24% {
-    opacity: 0.8;
-  }
-
-  24.5% {
-    opacity: 1;
-  }
-
-  25% {
-    opacity: 0.8;
-  }
-
-  26% {
-    opacity: 0.72;
-  }
-
-  29% {
-    opacity: 0.9;
-  }
-
-  30% {
-    opacity: 1;
-  }
-
-  39% {
-    opacity: 1;
-  }
-
-  40% {
-    opacity: 0.8;
-  }
-  44.5% {
-    opacity: 1;
-  }
-
-  45% {
-    opacity: 0.7;
-  }
-
-  51% {
-    opacity: 1;
-  }
-
-  55% {
-    opacity: 0.8;
-  }
-
-  60% {
-    opacity: 1;
-    text-shadow:
-      0 0 0 transparent,
-      0 0 10px #ff003c,
-      0 0 20px rgba(255, 0, 60, 1),
-      0 0 40px #ff003c,
-      0 0 100px #ff003c,
-      0 0 200px rgba(255, 0, 60, 1),
-      0 0 300px #ff003c,
-      0 0 500px #ff003c,
-      0 0 1000px #ff003c;
-  }
-  64.5% {
-    opacity: 0.9;
-  }
-
-  65% {
-    opacity: 1;
-  }
-
-  59% {
-    opacity: 0.8;
-  }
-
-  60% {
-    opacity: 0.2;
-  }
-
-  61% {
-    opacity: 1;
-  }
-
-  77% { 
-opacity: 0.5;*/
-/* text-shadow:
-      0 0 0 transparent,
-      0 0 10px #ffffff,
-      0 0 20px rgba(255, 255, 255, 1),
-      0 0 40px #ffffff,
-      0 0 100px #ffffff,
-      0 0 200px rgba(255, 255, 255, 1),
-      0 0 300px #ffffff,
-      0 0 500px #ffffff,
-      0 0 1000px #ffffff;
-  }*/
-/* 78% {
-    opacity: 1;
-  }
-} */
