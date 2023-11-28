@@ -1,8 +1,6 @@
 @font-face {
   font-family: 'abel';
-  src:
-    url('../assets/abel-regular.ttf') format('truetype'),
-    url('../assets/abel-regular.ttf') format('truetype');
+  src: url('../assets/abel-regular.woff') format('truetype');
   font-display: swap;
 }
 @font-face {
@@ -12,11 +10,11 @@
 }
 @font-face {
   font-family: 'calabrese';
-  src: url('../assets/C123456789-Regular.otf') format('truetype');
+  src: url('../assets/C123456789-Regular.woff') format('truetype');
   font-display: swap;
 }
 @font-face {
   font-family: 'paranoia-calabrese';
-  src: url('../assets/Paranoia-Regular.ttf') format('truetype');
+  src: url('../assets/Paranoia-Regular.woff') format('truetype');
   font-display: swap;
 }
