@@ -19,11 +19,12 @@
       ]
     }
   ],
-  "rewrites": [
+  "routes": [
+    { "handle": "filesystem" },
     {
-      "source": "/404",
-      "destination": "/custom-404.html"
+      "src": "/(.*)",
+      "status": 404,
+      "dest": "/404"
     }
-  ],
-  "routes": [{ "handle": "filesystem" }, { "src": "/(.*)", "dest": "/" }]
+  ]
 }
