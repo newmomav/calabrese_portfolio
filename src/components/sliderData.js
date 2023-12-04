@@ -122,7 +122,6 @@ export const sliderData = [
     src: '/ArchiveFotoskomprimiert/Kralle-gif.gif',
     alt: 'ceramic claw ringholder animates',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/ceramic-bowl-green2.jpg',
     alt: 'ceramic bowl green baroque with pink worms',
@@ -164,7 +163,6 @@ export const sliderData = [
     src: '/ArchiveFotoskomprimiert/stoneware-bowl-white-beige-blue2.jpg',
     alt: 'stoneware bowl white beige blue',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/ceramic-candleholder-rosebud-bluegreen-sideview.jpg',
     alt: 'ceramic candleholder rosebud bluegreen sideview',
@@ -193,12 +191,10 @@ export const sliderData = [
     src: '/ArchiveFotoskomprimiert/ceramic-ringholder-claw-white-worm.jpg',
     alt: 'ceramic claw ringholder in white wormdetail',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/stoneware-bowl-white-beige-blue.jpg',
     alt: 'stoneware bowl white beige blue downsideup',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/stoneware-cup-whiteblue.jpg',
     alt: 'stoneware cup white blue beige',
@@ -207,7 +203,6 @@ export const sliderData = [
     src: '/ArchiveFotoskomprimiert/stoneware-cup-jeans3.jpg',
     alt: 'stoneware cup jeans washed out',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/stoneware-plate-ancient-graffiti2.jpg',
     alt: 'stoneware plate ancient graffiti blue beige full2',
@@ -216,7 +211,6 @@ export const sliderData = [
     src: '/ArchiveFotoskomprimiert/stoneware-bowl-white-beige-blue3.jpg',
     alt: 'stoneware bowl white beige blue held by hand',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/stoneware-plate-ancient-graffiti3.jpg',
     alt: 'stoneware plate ancient graffiti detail',
@@ -225,7 +219,6 @@ export const sliderData = [
     src: '/ArchiveFotoskomprimiert/stoneware-plate-ancient-graffiti4.jpg',
     alt: 'stoneware plate ancient graffiti front',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/stonewarebowlbluewhite.jpg',
     alt: 'stoneware bowl blue white2',
