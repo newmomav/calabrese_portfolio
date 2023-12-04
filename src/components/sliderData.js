@@ -7,12 +7,10 @@ export const sliderData = [
     src: '/ArchiveFotoskomprimiert/ceramic-claw-ringholder-pink.jpg',
     alt: 'ceramic claw ringholder pink with bronze chain detail',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/stonewarebowlonthreelegs.jpg',
     alt: 'stoneware bowl on three legs',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/mortadella-flower.gif',
     alt: 'mortadella flower animated',
@@ -25,7 +23,6 @@ export const sliderData = [
     src: '/ArchiveFotoskomprimiert/ceramic-ribbon-jeansglaze.jpg',
     alt: 'ceramic ribbon with jeansglaze on dresser',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/stoneware-cup-whitebeige.jpg',
     alt: 'stoneware cup white blue beige detail',
@@ -51,7 +48,6 @@ export const sliderData = [
     src: '/ArchiveFotoskomprimiert/stoneware-plate-ancient-graffiti1.jpg',
     alt: 'stoneware plate ancient graffiti back',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/ceramic-wallpiece-burning-heart.jpg',
     alt: 'ceramic wallpiece burning heart bubblewrap',
@@ -95,25 +91,25 @@ export const sliderData = [
     alt: 'ceramic claw ringholder green business',
   },
   {
+    src: '/ArchiveFotoskomprimiert/stoneware-cup-whiteblue3.jpg',
+    alt: 'stoneware cup white blue beige detail',
+  },
+  {
     src: '/ArchiveFotoskomprimiert/ceramic-claw-ringholder-green-flames.jpg',
     alt: 'ceramic claw ringholder green with flames',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/ceramic-claw-ringholder-green-worms.jpg',
     alt: 'ceramic claw ringholder green flesh worm detail',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/stoneware-plate-ancient-graffiti.jpg',
     alt: 'stoneware plate ancient graffiti blue beige full',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/ceramic-piece-mortadella-flower.jpg',
     alt: 'ceramic piece mortadella flower in front of aquarium sideview',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/ceramic-ringholder-claw-white1.jpg',
     alt: 'ceramic claw ringholder in white detail',
@@ -177,7 +173,6 @@ export const sliderData = [
     src: '/ArchiveFotoskomprimiert/stoneware-cup-jeans4.jpg',
     alt: 'stoneware cup jeans washed out',
   },
-
   {
     src: '/ArchiveFotoskomprimiert/stoneware-bowl-beige-blue-white.jpg',
     alt: 'stoneware bowl beige blue white detail',
@@ -207,11 +202,6 @@ export const sliderData = [
   {
     src: '/ArchiveFotoskomprimiert/stoneware-cup-whiteblue.jpg',
     alt: 'stoneware cup white blue beige',
-  },
-
-  {
-    src: '/ArchiveFotoskomprimiert/stoneware-cup-whiteblue3.jpg',
-    alt: 'stoneware cup white blue beige detail',
   },
   {
     src: '/ArchiveFotoskomprimiert/stoneware-cup-jeans3.jpg',
