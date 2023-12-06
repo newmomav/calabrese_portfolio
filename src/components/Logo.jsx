@@ -3,12 +3,13 @@ import { NavLink } from 'react-router-dom';
 const Logo = () => {
   return (
     <>
-      <div className="w-full h-auto md:opacity-0 fade-in">
+      <h1 className="w-full h-auto md:opacity-0 fade-in">
         <svg
           viewBox="-80 00 1000 250"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           width="100%"
+          title="Calabrese, name of the brand and artist Anna Calabrese"
         >
           <NavLink to={'/'}>
             <path
@@ -17,7 +18,7 @@ const Logo = () => {
             />
           </NavLink>
         </svg>
-      </div>
+      </h1>
     </>
   );
 };
