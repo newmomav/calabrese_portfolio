@@ -115,11 +115,36 @@ svg path.calabrese {
   backdrop-filter: blur(10px);
 }
 
+.a {
+  margin-left: -0.2rem;
+}
+.l {
+  margin-left: 0.44rem;
+}
+.a2 {
+  margin-left: -0.1rem;
+  display: inline-block;
+  transform: translateY(-0.66rem);
+}
+.b {
+  margin-left: 0.6rem;
+}
+.r {
+  margin-left: 0.1rem;
+}
 .e {
   margin-left: -1.6rem;
+  display: inline-block;
+  transform: translateY(0.2rem);
 }
-.se {
-  margin-left: 0.7rem;
+.s {
+  margin-left: 0.2rem;
+  display: inline-block;
+  transform: translateY(-0.66rem);
+}
+.e2 {
+  display: inline-block;
+  transform: translateY(-0.9rem);
 }
 
 bg-video {
