@@ -12,7 +12,6 @@ import DarkMode from './components/DarkMode';
 import BurgerMenu from './components/BurgerMenu';
 import ErrorPage from './pages/ErrorPage';
 import { useEffect, useState } from 'react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const Layout = ({ children }) => {
   const location = useLocation();
@@ -143,7 +142,6 @@ const Layout = ({ children }) => {
           {item.content}
         </div>
       ))}
-      <SpeedInsights />
     </div>
   );
 };
