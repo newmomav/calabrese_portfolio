@@ -1,222 +1,222 @@
 export const sliderData = [
   {
-    src: '/public/Archivekomprimiert/ceramiccandleholderrosebudbluegreen.webp',
+    src: '/ceramiccandleholderrosebudbluegreen.webp',
     alt: 'ceramic candleholder rosebud bluegreen',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicclawringholderpinkwithbronzechaindetail.webp',
+    src: '/ceramicclawringholderpinkwithbronzechaindetail.webp',
     alt: 'ceramic claw ringholder pink with bronze chain detail',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarebowlonthreelegs.webp',
+    src: '/stonewarebowlonthreelegs.webp',
     alt: 'stoneware bowl on three legs',
   },
   {
-    src: '/public/Archivekomprimiert/mortadellaflowerxs.gif',
+    src: '/mortadellaflowerxs.gif',
     alt: 'mortadella flower animated',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicflowerplatebutteryellow.webp',
+    src: '/ceramicflowerplatebutteryellow.webp',
     alt: 'ceramic flower plate butteryellow',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicribbonjeansglazeondresser.webp',
+    src: '/ceramicribbonjeansglazeondresser.webp',
     alt: 'ceramic ribbon with jeansglaze on dresser',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarecupwhitebluebeigedetail.webp',
+    src: '/stonewarecupwhitebluebeigedetail.webp',
     alt: 'stoneware cup white blue beige detail',
   },
   {
-    src: '/public/Archivekomprimiert/ceramiccandleholderberrydetail.webp',
+    src: '/ceramiccandleholderberrydetail.webp',
     alt: 'ceramic candleholder berry detail',
   },
   {
-    src: '/public/Archivekomprimiert/stonewareplateancientgraffitiwhiteblue.webp',
+    src: '/stonewareplateancientgraffitiwhiteblue.webp',
     alt: 'stoneware plate ancient graffiti white blue',
   },
   {
-    src: '/public/Archivekomprimiert/stonewareplatebrownbeigeinfrontofbluewall.webp',
+    src: '/stonewareplatebrownbeigeinfrontofbluewall.webp',
     alt: 'stoneware plate brown beige in front of blue wall',
   },
 
   {
-    src: '/public/Archivekomprimiert/twotinystonewarebowlswithtearssgraffito.webp',
+    src: '/twotinystonewarebowlswithtearssgraffito.webp',
     alt: 'stoneware bowls tiny with tears sgraffito',
   },
   {
-    src: '/public/Archivekomprimiert/stonewareplateancientgraffitiback.webp',
+    src: '/stonewareplateancientgraffitiback.webp',
     alt: 'stoneware plate ancient graffiti back',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicwallpieceburningheartbubblewrap.webp',
+    src: '/ceramicwallpieceburningheartbubblewrap.webp',
     alt: 'ceramic wallpiece burning heart bubblewrap',
   },
   {
-    src: '/public/Archivekomprimiert/stonewareplateglazedetail.webp',
+    src: '/stonewareplateglazedetail.webp',
     alt: 'stoneware plate glaze detail',
   },
 
   {
-    src: '/public/Archivekomprimiert/ceramicbowlgreenbaroquewithpinkwormsinsink.webp',
+    src: '/ceramicbowlgreenbaroquewithpinkwormsinsink.webp',
     alt: 'ceramic bowl green baroque with pink worms in sink',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarecupwhitebluebeigedetail.webp',
+    src: '/stonewarecupwhitebluebeigedetail.webp',
     alt: 'stoneware cup white blue beige detail',
   },
   {
-    src: '/public/Archivekomprimiert/ceramiccandleholderrosebudberry.webp',
+    src: '/ceramiccandleholderrosebudberry.webp',
     alt: 'ceramic candleholder rosebud berry',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicclawringholderbeigelying.webp',
+    src: '/ceramicclawringholderbeigelying.webp',
     alt: 'ceramic claw ringholder beige lying',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarebowlbluewhitedownsideup.webp',
+    src: '/stonewarebowlbluewhitedownsideup.webp',
     alt: 'stoneware bowl blue white downsideup',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicclawringholderbeigewithblueworms.webp',
+    src: '/ceramicclawringholderbeigewithblueworms.webp',
     alt: 'ceramic claw ringholder beige with blue worms',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicclawringholderbrownonfrozenivy.webp',
+    src: '/ceramicclawringholderbrownonfrozenivy.webp',
     alt: 'ceramic claw ringholder brown on frozen ivy',
   },
 
   {
-    src: '/public/Archivekomprimiert/ceramicclawringholdergreenbusiness.webp',
+    src: '/ceramicclawringholdergreenbusiness.webp',
     alt: 'ceramic claw ringholder green business',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarecupwhitebluebeigedetail2.webp',
+    src: '/stonewarecupwhitebluebeigedetail2.webp',
     alt: 'stoneware cup white blue beige detail 2',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicclawringholdergreenflames.webp',
+    src: '/ceramicclawringholdergreenflames.webp',
     alt: 'ceramic claw ringholder green with flames',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicclawringholdergreenfleshwormdetail.webp',
+    src: '/ceramicclawringholdergreenfleshwormdetail.webp',
     alt: 'ceramic claw ringholder green flesh worm detail',
   },
   {
-    src: '/public/Archivekomprimiert/stonewareplateancientgraffitibluebeigefull.webp',
+    src: '/stonewareplateancientgraffitibluebeigefull.webp',
     alt: 'stoneware plate ancient graffiti blue beige full',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicpiecemortadellaflowerinfrontofaquariumsideview.webp',
+    src: '/ceramicpiecemortadellaflowerinfrontofaquariumsideview.webp',
     alt: 'ceramic piece mortadella flower in front of aquarium sideview',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicringholderclawwhitedetail1.webp',
+    src: '/ceramicringholderclawwhitedetail1.webp',
     alt: 'ceramic claw ringholder in white detail',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicpiecemortadellaflowerinfrontofaquarium.webp',
+    src: '/ceramicpiecemortadellaflowerinfrontofaquarium.webp',
     alt: 'ceramic piece mortadella flower in front of aquarium',
   },
   {
-    src: '/public/Archivekomprimiert/Kralle-gifxs.gif',
+    src: '/Kralle-gifxs.gif',
     alt: 'ceramic claw ringholder animated',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicbowlgreenbaroquewithpinkworms.webp',
+    src: '/ceramicbowlgreenbaroquewithpinkworms.webp',
     alt: 'ceramic bowl green baroque with pink worms',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicclawringholdergreenflamesinfrontofwhitebackground.webp',
+    src: '/ceramicclawringholdergreenflamesinfrontofwhitebackground.webp',
     alt: 'ceramic claw ringholder green with flames in front of white background',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicwallpieceheartinchainsespressobrown.webp',
+    src: '/ceramicwallpieceheartinchainsespressobrown.webp',
     alt: 'ceramic wallpiece heart in chains espressobrown',
   },
   {
-    src: '/public/Archivekomprimiert/ceramiccandleholderrosebudbluegreen1.webp',
+    src: '/ceramiccandleholderrosebudbluegreen1.webp',
     alt: 'ceramic candleholder rosebud bluegreen 1',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicclawringholderbrownpinkworms.webp',
+    src: '/ceramicclawringholderbrownpinkworms.webp',
     alt: 'ceramic claw ringholder brown with pink worms',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarebowlbluewhite.webp',
+    src: '/stonewarebowlbluewhite.webp',
     alt: 'ceramic bowl blue white',
   },
 
   {
-    src: '/public/Archivekomprimiert/ceramicclawringholdergreen.webp',
+    src: '/ceramicclawringholdergreen.webp',
     alt: 'ceramic claw ringholder green',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicobjectartichoke.webp',
+    src: '/ceramicobjectartichoke.webp',
     alt: 'ceramic object articheoke',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicrosebudcandleholderberry.webp',
+    src: '/ceramicrosebudcandleholderberry.webp',
     alt: 'ceramic rosebud candleholder berry',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarebowlwhitebeigeblue.webp',
+    src: '/stonewarebowlwhitebeigeblue.webp',
     alt: 'stoneware bowl white beige blue',
   },
   {
-    src: '/public/Archivekomprimiert/ceramiccandleholderrosebudbluegreensideview.webp',
+    src: '/ceramiccandleholderrosebudbluegreensideview.webp',
     alt: 'ceramic candleholder rosebud bluegreen sideview',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarecupjeanswashedout.webp',
+    src: '/stonewarecupjeanswashedout.webp',
     alt: 'stoneware cup jeans washed out',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarebowlbeigebluewhitedetail.webp',
+    src: '/stonewarebowlbeigebluewhitedetail.webp',
     alt: 'stoneware bowl beige blue white detail',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarebowlonthreelegsheldbyhand.webp',
+    src: '/stonewarebowlonthreelegsheldbyhand.webp',
     alt: 'stoneware bowl on three legs held by hand',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarebowlonthreeshortlegsbrownblue.webp',
+    src: '/stonewarebowlonthreeshortlegsbrownblue.webp',
     alt: 'stoneware bowl on three short legs brown blue',
   },
   {
-    src: '/public/Archivekomprimiert/ceramicringholderclawwhitewithwormdetail.webp',
+    src: '/ceramicringholderclawwhitewithwormdetail.webp',
     alt: 'ceramic claw ringholder in white wormdetail',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarebowlwhitebeigebluedownsideup.webp',
+    src: '/stonewarebowlwhitebeigebluedownsideup.webp',
     alt: 'stoneware bowl white beige blue downsideup',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarecupwhitebluebeige.webp',
+    src: '/stonewarecupwhitebluebeige.webp',
     alt: 'stoneware cup white blue beige',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarecupjeanswashedout.webp',
+    src: '/stonewarecupjeanswashedout.webp',
     alt: 'stoneware cup jeans washed out',
   },
   {
-    src: '/public/Archivekomprimiert/stonewareplateancientgraffitibluebeigefull1.webp',
+    src: '/stonewareplateancientgraffitibluebeigefull1.webp',
     alt: 'stoneware plate ancient graffiti blue beige full 1',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarebowlwhiteblueheldbyhand.webp',
+    src: '/stonewarebowlwhiteblueheldbyhand.webp',
     alt: 'stoneware bowl white beige blue held by hand',
   },
   {
-    src: '/public/Archivekomprimiert/stonewareplateancientgraffitidetail.webp',
+    src: '/stonewareplateancientgraffitidetail.webp',
     alt: 'stoneware plate ancient graffiti detail',
   },
   {
-    src: '/public/Archivekomprimiert/stonewareplateancientgraffitifront.webp',
+    src: '/stonewareplateancientgraffitifront.webp',
     alt: 'stoneware plate ancient graffiti front',
   },
   {
-    src: '/public/Archivekomprimiert/stonewarebowlwithapple.webp',
+    src: '/stonewarebowlwithapple.webp',
     alt: 'stoneware bowl blue white with apple',
   },
 ];
