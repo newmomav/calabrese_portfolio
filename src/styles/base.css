@@ -35,9 +35,13 @@ svg path.calabrese {
   fill: var(--body_color);
 }
 
+.border-color {
+  border-color: var(--body_color);
+}
+
 .fade-in {
   animation: fadeIn 1s forwards;
-  animation-delay: 8.5s;
+  /*animation-delay: 8.5s;*/
   animation-fill-mode: forwards;
 }
 @keyframes fadeIn {
