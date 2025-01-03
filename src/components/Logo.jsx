@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 const Logo = () => {
   return (
     <>
-      <h1 className="w-full h-auto md:opacity-0 fade-in">
+      <h1 className="w-full h-auto">
         <svg
           viewBox="-80 00 1000 250"
           fill="none"

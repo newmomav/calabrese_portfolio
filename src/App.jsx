@@ -6,6 +6,7 @@ import routes from './routes/root';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     if (window.innerWidth <= 768) {
@@ -19,11 +20,15 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  const handleSkipIntro = () => {
+    setIsLoading(false);
+  };
+
   return (
     <>
       {isLoading && (
         <div className={` fixed top-0 left-0 h-screen w-screen z-50 `}>
-          <Loader />
+          <Loader onSkip={handleSkipIntro} />
         </div>
       )}
 

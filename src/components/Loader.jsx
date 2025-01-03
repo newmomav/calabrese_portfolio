@@ -1,4 +1,4 @@
-const Loader = () => {
+const Loader = ({ onSkip }) => {
   return (
     <>
       <div
@@ -15,6 +15,23 @@ const Loader = () => {
           <span className="s">8</span>
           <span className="e2">9</span>
         </h1>
+
+        <button
+          onClick={onSkip}
+          className="absolute bottom-4 right-4
+            px-3 py-1
+            text-xs
+            text-white
+            border border-white/30
+            rounded-md
+            transition duration-300
+            hover:bg-white/10
+            focus:outline-none
+            focus:ring-2
+            focus:ring-white/20"
+        >
+          Skip Intro
+        </button>
       </div>
     </>
   );
