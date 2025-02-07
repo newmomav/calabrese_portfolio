@@ -3,10 +3,16 @@ import DarkMode from './DarkMode';
 
 const Navbar = () => {
   const navLinks = [
-    { to: '/info', id: '1', title: 'Info' },
-    { to: '/stockists', id: '2', title: 'Stockists' },
-    { to: '/archive', id: '3', title: 'Archive' },
-    { to: '/imprint', id: '4', title: 'Contact' },
+    // {
+    //   to: 'https://ht2yyz-cn.myshopify.com',
+    //   id: '1',
+    //   title: 'Shop',
+    //   external: true,
+    // },
+    { to: '/info', id: '2', title: 'Info' },
+    { to: '/stockists', id: '3', title: 'Stockists' },
+    { to: '/archive', id: '4', title: 'Archive' },
+    { to: '/imprint', id: '5', title: 'Contact' },
   ];
 
   return (

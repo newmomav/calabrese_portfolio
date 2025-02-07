@@ -31,6 +31,17 @@ const Stockists = () => {
             </a>
           </p>
         </div>
+        <div className="border-b border-opacity-80 border-color pb-2 mb-6">
+          <h4>NOMAD X COLLECTIVE</h4>
+          <a
+            target="_blank"
+            className="active:font-paranoia md:hover:font-paranoia"
+            href="https://www.nomadxcollective.com/"
+            rel="noreferrer"
+          >
+            https://www.nomadxcollective.com/
+          </a>
+        </div>
         <div className="border-b border-opacity-80 border-color pb-2">
           <h3>The Good Store</h3>
           <p>Pannierstraße 31, 12047 Berlin </p>
@@ -45,17 +56,6 @@ const Stockists = () => {
         </div>
 
         <h2 className="text-4xl font-paranoia">Collaborations</h2>
-        <div className="border-b border-opacity-80 border-color pb-2 mb-6">
-          <h4>NOMAD X COLLECTIVE</h4>
-          <a
-            target="_blank"
-            className="active:font-paranoia md:hover:font-paranoia"
-            href="https://www.nomadxcollective.com/"
-            rel="noreferrer"
-          >
-            https://www.nomadxcollective.com/
-          </a>
-        </div>
         <div className="border-b border-opacity-80 border-color pb-2 mb-12">
           <h4>VooStore</h4>
           <a
