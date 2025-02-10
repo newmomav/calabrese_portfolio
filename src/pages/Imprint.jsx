@@ -79,7 +79,7 @@ const Imprint = () => {
         </p>
       </div>
       <small className="block mt-4">
-        Last Update: November 2023 ❥ :*¨༺ ♱✮♱ ༻¨*:·
+        Last Update: February 2025 ❥ :*¨༺ ♱✮♱ ༻¨*:·
       </small>
     </div>
   );
